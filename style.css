@@ -1,0 +1,496 @@
+@charset "UTF-8";
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    padding: 15px 10%;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 10%;
+}
+
+nav h1{
+   font-weight: 900;
+   font-size: 22px;
+   font-style: italic;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav ul #link{
+    color: #F9995D;
+    font-weight: 600;
+}
+
+main .secao1{
+    position:relative;
+    display: flex;
+    align-items: center;
+    background-image: url('img/predios.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+main .secao1 h1{
+  position: absolute;
+  top: 40%;
+  font-size: 52px;
+  width: 35%;
+  color: aliceblue;
+  text-shadow: 2px 3px 3px black
+}
+
+main .secao1 .outros{
+    background-color: #3559C7;
+    color: aliceblue;
+    position: absolute;
+    top: 77%;
+    left: 80%;  
+    text-align: center;
+}
+
+main .secao1 .outros p{
+    margin: 5px 0px 10px 0px;
+}
+
+main .secao1 .outros h3{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+main .secao1 .outros .btns{
+    display: flex;
+    gap: 0.3px;
+
+}
+
+main .secao1 .outros button{
+    background-color: #292E3D;
+    color: aliceblue;
+    width: 50%;
+    padding: 5px;
+    border: none;
+}
+
+main .secao2 h2{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+main .secao2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto 50px auto;
+}
+
+main .secao2 .container div{
+    padding: 15px 15px 30px 15px;
+    width: 30%;
+    border: 1px solid black;
+}
+
+main .secao2 .container div h3{
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+main .secao3{
+    position: relative;
+}
+
+main .secao3 .container{
+    padding: 40px 0px 60px 0px;
+}
+
+main .secao3 .about{
+    background-color: #3559C7;
+    color: aliceblue;
+    padding: 50px 30px;
+    width: 25%;
+    position: absolute;
+    left: 65%;
+    top: 19%;
+}
+
+main .secao3 .about p{
+    margin: 20px 0px;
+}
+
+main .secao3 .about h2{
+    font-size: 26px;
+}
+
+main .secao3 .about a{
+    display: inline-block;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: #3559C7;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+main .secao3 .img-secao3{
+    width: 80%;
+}
+
+main .secao3 .img-secao3 img{
+    width: 100%;
+    height: 100%;
+}
+
+main .secao4{
+    background: #F6F8F7;
+    padding: 50px 0px;
+}
+
+main .secao4 h2{
+    text-align: center;
+    font-size: 26px;
+}
+
+main .secao4 .container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px 70px;
+    margin: 50px auto;
+    
+}
+
+main .secao4 .container div{
+    text-align: center;
+    padding: 40px;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.042);
+}
+
+main .secao4 .container div hr{
+    margin: 10px auto;
+    width: 25%;
+    height: 1.8px;
+    border: none;
+    
+}
+
+main .secao4 .container div img{
+    width: 35px;
+}
+
+main .secao4 .fundo-azul{
+    background-color: #3559C7;
+    color: #ffffff;
+}
+
+main .secao4 .fundo-azul hr{
+    background-color: #ffffff;
+}
+
+main .secao4 .fundo-branco{
+    color: #3559C7;
+}
+
+main .secao4 .fundo-branco hr{
+    background-color: rgba(0, 0, 0, 0.222);
+}
+
+
+main .secao5 .container {
+    width: 89%;
+    margin: 40px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .secao5 .container .dados{
+    width: 60%;
+}
+
+main .secao5 .container .texto-secao5{
+    width: 30%;
+}
+
+main .secao5 .container .dados div {
+    padding: 30px 20px;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.042);
+    position: relative;
+    background: white;
+}
+
+main .secao5 .container div h2{
+    font-size: 56px;
+}
+
+main .secao5 .dados .dado1, .dado2, .dado3, .dado4{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+main .secao5 .container div hr{
+    display: inline-block;
+    background-color: #F9995D;
+    height: 20px;
+    width: 4.5px;
+    margin: 0px 10px;
+    border: none;
+}
+
+main .secao5 .dado1 img{
+    width: 70px;
+    position: absolute;
+    left: 81%;
+    top: -10px;
+}
+
+main .secao5 .dado2 img{
+    position: absolute;
+    left: -22px;
+    top: -25px;
+    width: 55px;
+}
+
+main .secao5 .dado3 img{
+    position: absolute;
+    width: 65px;
+    position: absolute;
+    left: 79%;
+    top: -10px;
+}
+
+main .secao5 .dado4 img{
+    position: absolute;
+    width: 55px;
+    position: absolute;
+    left: 91%;
+    top: 120px;
+}
+
+main .secao5 .dado1{
+    position: absolute;
+    left: 45%;
+    top: 50px;
+    z-index: 1;
+    width: 250px;
+}
+
+main .secao5 .dado2{
+    width: 300px;
+}
+
+main .secao5 .dado3{
+    position: absolute;
+    left: 40%;
+    top: -14px;
+    z-index: 1;
+    width: 250px;
+}
+
+main .secao5 .dado4{
+    position: absolute;
+    left: 5%;
+    top: -55px;
+    z-index: 0;
+    width: 300px;
+}
+
+main .secao5 .texto-secao5 h2{
+    color: #2947A9;
+    font-size:40px;
+    font-weight: 900;
+}
+
+main .secao5 .texto-secao5 p{
+    margin: 26px 0px 50px 0px;
+}
+
+main .secao5 .texto-secao5 a{
+    background-color: #2947A9;
+    padding: 12px 35px;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+main .secao6{
+    background-image: url('img/casa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F6F8F7;
+    padding: 100px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .secao6 .texto-secao6 h2{
+    font-size: 35px;
+}
+
+main .secao6 .texto-secao6 p{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+main .secao6 .texto-secao6 p strong{
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+main .secao6 .link a{
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+}
+
+main .secao7 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .secao7 .container2{
+    width: 70%;
+    margin: 150px 0px 100px 0px;
+}
+
+main .secao7 .texto-secao7{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: -500px;
+}
+
+main .secao7 .texto-secao7 h2{
+    margin: 30px 0px;
+}
+
+main .secao7 .texto-secao7 a{
+    position: relative;
+    margin: 10px 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #C2C7D6;
+    transition: .3s;
+}
+
+main .secao7 .texto-secao7 a:hover{
+    color: #2947A9;
+}
+
+main .secao7 .texto-secao7 a::before{
+    content: '';
+    background-color: #3559C7;
+    position: absolute;
+    left: -9px;  
+}
+
+main .secao7 .texto-secao7 a:hover::before{
+    height: 20px;
+    width: 3.5px;
+}
+
+main .secao7 .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+}
+
+main .secao7 .cards .card{
+    background-color: #2947A9;
+}
+
+main .secao7 .cards .card img{
+    width: 100%;
+    
+}
+
+main .secao7 .cards .card h3{
+    padding: 10px 20px;
+    color: #F6F8F7;
+}
+
+main .secao7 .cards .card p{
+    padding: 0px 0px 20px 20px;
+    color: #F6F8F7;
+}
+
+main .secao7 .btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .secao7 .btns button{
+    padding: 10px 20px;
+    width: 35%;
+    font-size: 18px;
+    margin-top: 35px;
+    background-color: #292E3D;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+main .secao8{
+    padding: 50px 0px;
+    background-color: #F6F8F7;
+}
+
+main .secao8 .texto-secao8{
+    text-align: center;
+}
+
+main .secao8 .texto-secao8 h2{
+    font-size: 30px;
+}
+
+main .secao8 .texto-secao8 p{
+    font-size: 18px;
+    margin: 20px 0px 30px 0px;
+}
+
+main .secao8 form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+main .secao8 form input{
+    width:48%;
+}
+
+main .secao8 form #ime{
+    width: 99.2%;
+}
+
+
+
